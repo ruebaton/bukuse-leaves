@@ -1,0 +1,31 @@
+
+
+#readbox:active {
+    cursor : -webkit-grabbing;
+    cursor : -moz-grabbing;
+    cursor : -o-grabbing;
+    cursor : default;
+}
+.current-word {
+	//background: yellow;
+  background: #eee8d5;
+  color: brown;
+  //#383432
+  //#073642
+	//outline: solid 2px #268bd2;
+	//box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  box-shadow: 0 0 1px rgba(0,0,0,0.5);
+  //1px 1px 2px rgba(0, 0, 0, 0.66)
+}
+.aligned-word:hover {
+	cursor: pointer;
+	//background: #FEFFDC;
+  //color: #b58900;
+  //color: #cb4b16;
+  //color: #dc322f;
+  //color: #d33682;
+  //color: #6c71c4;
+  color: #268bd2;
+  //color: #2aa198;
+  //color: #859900;
+  

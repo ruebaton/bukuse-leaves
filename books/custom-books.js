@@ -26,12 +26,10 @@ function loadLocal(osis) {
 
             document.getElementById('readbox').innerHTML = JSON.stringify(numrhmd);
 
-
             // start aligner
             aligner.align(audioUrl, timingUrl);
         }
     });
-
 }
 
 loadLocal('book1');
